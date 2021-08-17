@@ -1,13 +1,68 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+/* .details_user {
+  font-size: 0.8rem;
+} */
+/*X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+*/
+
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  
+}
+*/
+/*
+// Medium devices (tablets, 768px and up)
+//@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+//@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+//@media (min-width: 1200px) { ... }
+
+//* /* / XX-Large devices (larger desktops, 1400px and up)*/
+/*@media (min-width: 576px) {
+  .details_user {
+    font-size: 1rem;
+  }
+  .Article {
+    padding-left: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .Article {
+    padding-left: 0rem;
+  }
+} */
+.content_div {
+  background-color: rgb(102, 153, 153);
+}
+.main_div {
+  background-color: rgb(255, 153, 0);
+}
+.card-title {
+  word-break: break-all;
+}
+.card-text {
+  word-break: break-all;
+}
+@media (max-width: 575.98px) {
+  .main_div {
+    margin-left: 3rem;
+    width: max-content !important;
+    padding-right: 1rem !important;
+  }
 }
